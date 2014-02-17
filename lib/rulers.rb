@@ -1,5 +1,7 @@
 require "rulers/version"
+require 'rulers/array'
 require 'pry'
+
 module Rulers
   class Application
     def call(env)
