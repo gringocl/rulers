@@ -1,7 +1,7 @@
 require 'pry'
 class Object
   def self.const_missing(c)
-    binding.pry
+    # binding.pry
     return nil if @calling_cont_missing
 
     @calling_cont_missing = true
