@@ -10,5 +10,7 @@ class Object
     @calling_cont_missing = false
 
     klass
+  rescue LoadError
+    super
   end
 end
