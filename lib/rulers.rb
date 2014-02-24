@@ -5,7 +5,7 @@ require 'rulers/util'
 require 'rulers/dependencies'
 require 'rulers/controller'
 require 'rulers/file_model'
-require 'pry'
+# require 'pry'
 
 module Rulers
   class Application

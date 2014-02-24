@@ -1,5 +1,5 @@
 require 'multi_json'
-require 'pry'
+# require 'pry'
 
 module Rulers
   module Model
